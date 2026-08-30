@@ -67,5 +67,5 @@ print(student_dct.items())
 del(student_dct['address'])
 print(student_dct)
 del dog
-
+print("One of the dictionaries has been deleted successfully")
 
