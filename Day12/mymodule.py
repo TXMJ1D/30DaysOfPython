@@ -72,7 +72,8 @@ def shuffle_list(list):
 
 def randint_generator():
     int_list = []
-    for x in range(7):
+    # for x in range(7): if a number is a duplicate then the length 0f the list could be less than intended and not consistent 
+    while len(list) <= 7:
         z = random.randint(0,9)
         if z not in int_list:
             int_list.append(z)
